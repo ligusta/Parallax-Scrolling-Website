@@ -7,7 +7,6 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     color: #fff;
-    
 }
 
 body {
@@ -24,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 .navbar__logo__link {
@@ -54,4 +54,59 @@ body {
     background: #fff;
     color: #2b1055;
     border-radius: 15px;
+}
+
+.images__container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images__sections {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#img__moon {
+    mix-blend-mode: screen;
+}
+
+#img__mountain-front {
+    z-index: 20;
+}
+
+.text__moon {
+    top: 1vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#moon__text {
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 10;
+}
+
+#moon__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 45px;
+    z-index: 30;
+    background: #fff;
+    color:#2b1055;
+    font-size: 1.5vw; 
+    height: 3vw;
+    width: 8vw;
 }
