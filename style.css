@@ -19,7 +19,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 2vw 10vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@ body {
 
 .navbar__logo__link {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2vw;
     letter-spacing: 2px;
     text-decoration: none;
 }
@@ -37,23 +37,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 4vw;
 }
 
 .navbar__item {
     list-style: none;
-    margin-left: 20px;
+    margin-left: 1.2vw;
     list-style: none;
 }
 
 .navbar__links {
+    font-size: 1vw;
     text-decoration: none;
-    padding: 6px 15px;
+    padding: 0.5vw 1vw;
 }
 
 .navbar__links:hover {
     background: #fff;
     color: #2b1055;
-    border-radius: 15px;
+    border-radius: 15vw;
 }
 
 .images__container {
