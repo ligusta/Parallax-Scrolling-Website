@@ -109,6 +109,7 @@ body {
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 10;
+    padding-left: 25%;
 }
 
 #moon__button {
